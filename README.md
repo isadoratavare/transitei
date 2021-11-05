@@ -5,15 +5,15 @@ Repositório para projeto desenvolvido na disciplina de Engenharia de Sistema de
 
     +---public
     +---src
-    +---components
-    ¦   +---App
-    ¦   +---Button
-    ¦   +---Input
-    ¦   +---Layout
-    ¦   +---Loading
-    ¦   +---Modal
-    ¦   +---Navbar
-    ¦   +---Todo
+        +---components
+        ¦   +---App
+        ¦   +---Button
+        ¦   +---Input
+        ¦   +---Layout
+        ¦   +---Loading
+        ¦   +---Modal
+        ¦   +---Navbar
+        ¦   +---Todo
     +---Firebase
     +---images
     +---pages
