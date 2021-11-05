@@ -2,7 +2,7 @@
 Repositório para projeto desenvolvido na disciplina de Engenharia de Sistema de Informação da UFRPE
 
 ## Estrutura de pastas
-``
+
     +---public<br>
     +---src<br>
     +---components<br>
@@ -30,4 +30,3 @@ Repositório para projeto desenvolvido na disciplina de Engenharia de Sistema de
     +---store<br>
         +---actions<br>
         +---reducers<br>
-``
