@@ -1,0 +1,25 @@
+[
+    {
+      "rua": "Rua 1",
+      "cidade": "Cidade 1",
+      "seguranca": "98",
+      "qtacidentes": "2",
+      "comentario": "Gostei"
+    },
+
+    {
+      "rua": "Rua 2",
+      "cidade": "Cidade 2",
+      "seguranca": "72",
+      "qtacidentes": "2",
+      "comentario": "Gostei"
+    },    
+
+    {
+      "rua": "Rua 3",
+      "cidade": "Cidade 3",
+      "seguranca": "45",
+      "qtacidentes": "2",
+      "comentario": "Gostei"
+    }    
+  ]
