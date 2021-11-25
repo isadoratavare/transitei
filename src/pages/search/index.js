@@ -7,7 +7,7 @@ import BookData from "../../data/Data.json"
 
 export default function App() {
     return (
-      <h2 class="page">
+      <div class="page">
         <div className="App">
           <SearchBar placeholder="Pesquisar" data={BookData} />
         </div>
@@ -33,7 +33,7 @@ export default function App() {
         <div class="comments">
           Comentarios
         </div>        
-      </h2>
+      </div>
       
     );
   }

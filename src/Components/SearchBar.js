@@ -29,19 +29,20 @@ function SearchBar({ placeholder, data }) {
   return (
     <div className="search">
       <div className="searchInputs">
-        <input
-          type="text"
-          placeholder={placeholder}
-          value={wordEntered}
-          onChange={handleFilter}
-        />
-        <div className="searchIcon">
+      <div className="searchIcon">
           {filteredData.length === 0 ? (
             <SearchIcon />
           ) : (
             <CloseIcon id="clearBtn" onClick={clearInput} />
           )}
         </div>
+        <input
+          type="text"
+          placeholder={placeholder}
+          value={wordEntered}
+          onChange={handleFilter}
+        />
+        
       </div>
       {filteredData.length != 0 && (
         <div className="dataResult">

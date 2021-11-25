@@ -1,5 +1,10 @@
-.page{
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 .App {
     display: flex;
@@ -9,10 +14,11 @@
   }
 
 .security {
+    display: flex;
+    align-items: center;
+    align-content: center;
     color: green;
     font-size: 35px;
-    margin-right: 600px;
-    margin-top: 200px;
 }
 
 .status {
@@ -37,9 +43,14 @@
 }
 
 .img-bola{
-    margin-left: 500px
+    margin-left: 250px
 }
 .comments {
     margin-right: 1250px;
     margin-top: 270px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
 }
