@@ -17,9 +17,10 @@ export default function App() {
               <div class="status">Foram registrados x acidentes nesse trajeto entre 2015 e 2021.</div>
               <button class="fav-button">
                   <div>
-                    <img src={icon} alt="coração" /> 
-                    <div class="buttom-text"> Adicionar aos favoritos</div>
+                    <img src={icon} alt="coração" />
+                    <div2 class="buttom-text"> Adicionar aos favoritos</div2>                     
                   </div>              
+                  
               </button>
             </div>            
           </div> 
