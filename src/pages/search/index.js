@@ -2,7 +2,7 @@ import * as React from 'react';
 import "./index.css";
 import grafico from '../../Components/images/grafico.png';
 import icon from "../../Components/images/icon.png"
-import SearchBar from "../../Components/SearchBar"
+import SearchBar from "../../Components/SearchBar/SearchBar"
 import BookData from "../../data/Data.json"
 
 export default function App() {
@@ -18,14 +18,14 @@ export default function App() {
               <button class="fav-button">
                   <div>
                     <img src={icon} alt="coração" /> 
-                    <text class="buttom-text"> Adicionar aos favoritos</text>
+                    <div class="buttom-text"> Adicionar aos favoritos</div>
                   </div>              
               </button>
             </div>            
           </div> 
-          <div2 class= "img-bola">
-            <img src={grafico} alt="grafico" /> 
-          </div2>       
+            <div class= "img-bola">
+              <img src={grafico} alt="grafico" /> 
+            </div>       
         </section>
        
 
