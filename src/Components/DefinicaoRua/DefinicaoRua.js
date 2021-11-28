@@ -44,8 +44,8 @@ class DefinicaoRua extends Component {
                     </section>) : (
                     <section className="banner">
                         <div className="security">
-                            <div className="security-status" style={{ color: rua.perigo >= 75 ? "green" : rua.perigo < 75 && rua.perigo >= 45 ? "yellow" : "red" }}>{rua.perigo >= 75 ? ruaSegura : rua.perigo < 75 && rua.perigo >= 45 ? ruaRegular : ruaPerigosa}
-                                <div className="status" >Foram registrados {rua.perigo} acidentes nesse trajeto entre 2015 e 2021.</div>
+                            <div className="security-status" style={{ color: rua.acidentes >= 75 ? "green" : rua.acidentes < 75 && rua.acidentes >= 45 ? "yellow" : "red" }}>{rua.acidentes >= 75 ? ruaSegura : rua.acidentes < 75 && rua.acidentes >= 45 ? ruaRegular : ruaPerigosa}
+                                <div className="status" >Foram registrados {rua.acidentes} acidentes nesse trajeto entre 2015 e 2021.</div>
                                 <button className="fav-button">
                                     <div>
                                         <img src={icon} alt="coração" />

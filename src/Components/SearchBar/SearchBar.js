@@ -49,7 +49,7 @@ function SearchBar({ data = BookData, OnSelected = {} }) {
         <div className="dataResult">
           {filteredData.slice(0, 15).map((value, key) => {
             return (
-              <a className="dataItem" key={key} href={value.link} target="_blank" onClick={()=>{OnSelected(value)}}>
+              <a className="dataItem" key={key} onClick={()=>{OnSelected(value)}}>
                 <p>{value.nome} </p>
               </a>
             );

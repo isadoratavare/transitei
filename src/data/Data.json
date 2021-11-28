@@ -2,25 +2,22 @@
   {
     "nome": "Rua 1",
     "cidade": "cidade 1",
-    "perigo": "77",
-    "link": "https://www.google.com.br/"
+    "acidentes": "77"
   },
   {
     "nome": "Rua 2",
     "cidade": "cidade 1",
-    "perigo": "55",
-    "link": "https://www.google.com.br/"
+    "acidentes": "55"
   },
   {
     "nome": "Rua 3",
     "cidade": "cidade 1",
-    "perigo": "98",
-    "link": "https://www.google.com.br/"
+    "acidentes": "98"
+
   },
   {
     "nome": "Rua 4",
     "cidade": "cidade 1",
-    "perigo": "44",
-    "link": "https://www.google.com.br/"
+    "acidentes": "44"
   }
 ]
