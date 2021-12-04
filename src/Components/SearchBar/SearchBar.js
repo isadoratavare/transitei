@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./SearchBar.css";
 import SearchIcon from "@material-ui/icons/Search";
 import CloseIcon from "@material-ui/icons/Close";
-import BookData from "../../data/Data.json"
+import BookData from "../../data/DataRua.json"
 
 function SearchBar({ data = BookData, OnSelected = {} }) {
   const [filteredData, setFilteredData] = useState([]);

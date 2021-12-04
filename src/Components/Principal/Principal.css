@@ -30,6 +30,11 @@
     margin-top: 15px;
 }
 
+.statusP {
+    color: black;
+    margin-left: 85px;    
+}
+
 .heart{
     margin-right: 160px;
 }
@@ -59,3 +64,4 @@
     display: flex;
     align-items: center;
 }
+
