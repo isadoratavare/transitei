@@ -1,8 +1,8 @@
-import Home from "../../pages/Home";
+import Login from "../../pages/login";
 import "./style.css";
 
 export default function App() {
   return (
-    <Home />
+    <Login />
   );
 }
