@@ -1,7 +1,8 @@
-import Search from "../../pages/search";
+import Home from "../../pages/Home";
+import "./style.css";
 
 export default function App() {
   return (
-      <Search />
+    <Home />
   );
 }
