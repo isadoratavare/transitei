@@ -32,7 +32,7 @@ class DefinicaoRua extends Component {
                 <SearchBar data={BookData} OnSelected={this.OnRuaSelecionada} />
                 {(Object.keys(rua).length === 0) ? (
                     <section className="banner">
-                        <div className="security">
+                        <div className="security1">
                             <div className="security-status">Pesquise o nome da rua que deseja consultar
                                 <div className="statusP">Consultas rápidas a qualquer hora!</div>
 
@@ -47,7 +47,7 @@ class DefinicaoRua extends Component {
                                     <div className="status" >Foram registrados {rua.acidentes} acidentes nesse trajeto entre 2015 e 2021.</div>
                                     <button className="fav-button">
                                         <div>
-                                            <img src={icon} alt="coração" />
+                                            <img className = "buttom-heart" src={icon} alt="coração" />
                                             <div2 className="buttom-text"> Adicionar aos favoritos</div2>
                                         </div>
                                     </button>
@@ -59,7 +59,7 @@ class DefinicaoRua extends Component {
                         </section>
                         <section className="commentsbanner">
                             <div className="comments">
-                                <div>comentarios</div>
+                                <div className = "commenttext">comentarios:</div>
                                 <button className="commentbutton">
                                     Comentar
                                 </button>
