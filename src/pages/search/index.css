@@ -1,10 +1,11 @@
 .page {
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: space-around;
+
 }
 .App {
     display: flex;
@@ -31,6 +32,8 @@
 
 .statusP {
     color: black;
+    margin-top: 25px;
+    font-family: "Poppins";
 }
 
 .heart{

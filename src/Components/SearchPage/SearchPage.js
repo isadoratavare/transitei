@@ -33,8 +33,8 @@ class DefinicaoRua extends Component {
                 {(Object.keys(rua).length === 0) ? (
                     <section className="banner">
                         <div className="security">
-                            <div className="security-status">Bem Vindo
-                                <div className="statusP">Pesquise o nome da rua que deseja consultar</div>
+                            <div className="security-status">Pesquise o nome da rua que deseja consultar
+                                <div className="statusP">Consultas rápidas a qualquer hora!</div>
 
                             </div>
                         </div>
