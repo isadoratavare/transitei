@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import BookData from "../../data/DataRua.json"
 import SearchBar from "../SearchBar/SearchBar";
-import grafico from '../../Components/images/grafico.png';
+import graficoregular from '../../Components/images/graficoregular.png';
+import graficoseguro from '../../Components/images/graficoseguro.png';
+import graficoperigoso from '../../Components/images/graficoperigoso.png';
 import icon from "../../Components/images/icon.png"
 
 class DefinicaoRua extends Component {
@@ -24,6 +26,14 @@ class DefinicaoRua extends Component {
         const ruaSegura = "Esta rua é considerada segura";
 
         const ruaRegular = "Esta rua é considerada regular";
+
+        const imgRuaSegura = <img src={graficoseguro} alt="grafico" />;
+
+        const imgRuaRegular = <img src={graficoregular} alt="graficoregular" />;
+
+        const imgRuaPerigosa = <img src={graficoperigoso} alt="grafico" />;
+
+
 
         const rua = this.state.RuaSelecionada
 
@@ -54,7 +64,8 @@ class DefinicaoRua extends Component {
                                 </div>
                             </div>
                             <div className="img-bola">
-                                <img src={grafico} alt="grafico" />
+                            {rua.acidentes >= 75 ? imgRuaSegura : rua.acidentes < 75 && rua.acidentes >= 45 ? imgRuaRegular : imgRuaPerigosa}
+                                
                             </div>
                         </section>
                         <section className="commentsbanner">

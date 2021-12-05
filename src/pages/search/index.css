@@ -57,7 +57,7 @@
 
 .fav-button{
     cursor: pointer;
-    margin-left: 100px;
+    margin-left: 110px;
     margin-top: 25px;   
     border-radius: 7px;
     height: 33px;
@@ -87,7 +87,7 @@
 
 .commenttext{
     position: absolute;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .commentbutton{
