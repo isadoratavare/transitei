@@ -59,9 +59,10 @@ class DefinicaoRua extends Component {
                         </section>
                         <section className="commentsbanner">
                             <div className="comments">
-                            <div>
-                <SearchBar> </SearchBar>
-            </div>
+                                <div>comentarios</div>
+                                <button className="commentbutton">
+                                    Comentar
+                                </button>
                             </div>
                         </section>
                     </div>
