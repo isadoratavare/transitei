@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Rua 1",
+    "cidade": "cidade 1",
+    "acidentes": "77"
+  },
+  {
+    "nome": "Rua 2",
+    "cidade": "cidade 1",
+    "acidentes": "55"
+  },
+  {
+    "nome": "Rua 3",
+    "cidade": "cidade 1",
+    "acidentes": "98"
+
+  },
+  {
+    "nome": "Rua 4",
+    "cidade": "cidade 1",
+    "acidentes": "44"
+  }
+]

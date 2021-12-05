@@ -1,0 +1,76 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .security1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+} 
+
+.security {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.status {
+    margin-left: 85px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+}
+
+.statusP {
+    color: black;
+    margin-left: 85px;    
+}
+
+.heart{
+    margin-right: 160px;
+}
+.fav-button{
+    margin-right: 120px;
+    margin-top: 20px;   
+    border-radius: 7px;
+    height: 37px;
+    width: 200px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:rgb(255, 255, 255)
+
+}
+
+.img-bola{
+    margin-left: 250px
+}
+.comments {
+    margin-right: 1250px;
+    margin-top: 50px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
