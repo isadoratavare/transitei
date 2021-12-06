@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,700&display=swap');
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.right {
+    right:0;
+    background-color: rgb(241, 241, 241);
+  }
+.left {
+    left:0;
+    background-color: yellow ;
+}
+
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
+}
+
+.centered img{
+    width: 500px;
+    border-radius: 50%;
+}
+
+.ButtonRight{
+  position:absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+
+.ButtonRight img{
+  width: 300px;
+  border-radius:50%;
+}
+
+
+.LoginSide{
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+.SocialLogin{
+  position: absolute;
+  top:27%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}

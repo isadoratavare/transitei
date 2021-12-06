@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,700&display=swap');
+
+a{
+    text-decoration: none;
+
+}
+
+.navbar{
+    height: 10vh;
+    background-color: #F2F2F2;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+nav{
+    display: flex;
+}
+nav li{
+    margin: 0 2rem;
+    cursor: pointer;
+}
+nav li:hover{
+    border-bottom: 1px solid var(--yellow);
+}
+#logo{
+    font-family: 'Exo';
+    margin-right: 2rem ;
+}
+.buttons button, .btn{
+    margin-right: 0.5rem;
+    padding: 1rem 3rem;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login{
+    background-color: var(--yellow);
+}
+.cadastro{
+    background-color: black;
+}
+.banner{
+    margin: 3rem 0;
+}
+section{
+    margin: 3rem 0;
+}
+.col-text{
+    width: 50%;
+}
+p{
+    margin: 1rem auto;
+}
+.card-container{
+    display: flex;
+    margin: 2rem 0;
+    width: 50rem;
+}
+
+.card{
+    display: flex;
+    align-items: flex-end;
+    height: 20rem;
+    width: 13rem;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+#card1{
+    background: linear-gradient(180deg, rgba(255, 211, 0, 0.0195) 0%, rgba(255, 211, 0, 0.381667) 44.73%, rgba(255, 211, 0, 0.65) 100%),url("../../images/img-1.svg");
+}
+#card2{
+    background: linear-gradient(180deg, rgba(255, 211, 0, 0.0195) 0%, rgba(255, 211, 0, 0.381667) 41.03%, rgba(255, 211, 0, 0.65) 100%),url("../../images/img-2.svg");
+}
+#card3{
+    background: linear-gradient(180deg, rgba(255, 211, 0, 0.0195) 0%, rgba(255, 211, 0, 0.381667) 44.73%, rgba(255, 211, 0, 0.65) 100%),url("../../images/img-3.svg");
+}
