@@ -4,7 +4,7 @@ import DefinicaoRua from '../../Components/SearchPage/SearchPage';
 
 export default function AppSearch() {
     return (
-      <div class="page">
+      <div className ="page">
         <DefinicaoRua/>
       </div>
     );
