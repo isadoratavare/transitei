@@ -4,8 +4,8 @@ import Framedsfadsfa from '../../images/Framedsfadsfa.svg';
 import Logotipo from '../../images/Logotipo.svg';
 import BigLogo from '../../images/BigLogo.svg';
 import LoginEmail from "../../Components/LoginSenha/LoginS";
-import GoogleLogin from "../../images/GoogleLogin.png"
-import FacebookLogin from "../../images/FacebookLogin.png"
+import facebook from "../../images/facebook.png";
+import google from "../../images/google.png";
 
 
 
@@ -26,9 +26,13 @@ const Login = () => {
             <div class= "ButtonRight">
             <input type="image" src= {BigLogo} alt= "Big Logo"/>
             </div>
-            <div class= "SocialLogin">
-            <input type="image" src= {GoogleLogin} alt= "GoogleLogin"/>
-           <input type="image" src= {FacebookLogin} alt= "FacebookLogin"/>
+            <div class="SocialLogin">
+            <div class= "google">
+            <input type="submit" id="google-button" value="Login com Google"></input>
+            </div>
+            <div class= "facebook">
+            <input type="submit" id="facebook-button" value="Login com Facebook"></input>
+           </div>
            </div>
            <div class= "LoginSide">
                  <LoginEmail/>
