@@ -1,0 +1,76 @@
+[
+  {
+    "nome": "Rua 1",
+    "cidade": "cidade 1",
+    "acidentes": "77",
+    "seguranca": "45"
+    
+  },
+  {
+    "nome": "Rua 2",
+    "cidade": "cidade 1",
+    "acidentes": "55",
+    "seguranca": "70"
+  },
+  {
+    "nome": "Rua 3",
+    "cidade": "cidade 1",
+    "acidentes": "98",
+    "seguranca": "32"
+
+  },
+  {
+    "nome": "Rua 4",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 5",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 6",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 7",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 8",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 9",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 10",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 11",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  },
+  {
+    "nome": "Rua 12",
+    "cidade": "cidade 1",
+    "acidentes": "44",
+    "seguranca": "79"
+  }
+]

@@ -1,0 +1,196 @@
+
+.page {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.search {
+    margin-bottom: 700px;
+    position: absolute;
+
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .security1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 50px;
+} 
+
+
+.security {
+    margin-left: 110px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.status {
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.statusP {
+    color: black;
+    margin-top: 25px;
+    font-family: "Poppins";
+}
+.homebutton{
+    font-size: 15px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 0px;
+    height: 50px;
+    width: 80px;
+    border: 0;
+    background-color:rgba(0, 0, 0, 0.938);
+    color:rgb(255, 255, 255)
+
+}
+
+.homeicon{
+    width: 30px;
+}
+.fav-button{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 30px;   
+    border-radius: 7px;
+    height: 33px;
+    width: 170px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:rgb(255, 255, 255)
+
+}
+
+.img-bola{
+    margin-left: 250px
+}
+.comments {
+    margin-top: 50px;
+    font-size: 25px
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+    margin-bottom: 220px;
+}
+
+.commenttext{
+    text-align: start;
+    margin-left: 80px;
+}
+
+.commentsbanner{
+    margin-right: 80px;
+}
+
+.commentbutton{
+    font-size: 15px;
+    position: absolute;
+    cursor: pointer;
+    margin-right: 0px;
+    height: 50px;
+    width: 200px;
+    border: 0;
+    background-color:rgb(255, 211, 0);
+    color:rgb(255, 255, 255)
+}
+
+.commentbox{
+    padding: 12px 20px;
+    margin-right: 80px;
+    margin-top: 5px;
+    width: 900px;
+    
+}
+
+.buttom-heart{
+    position: absolute;
+    margin-top: 5px;
+}
+
+.buttom-text{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.security-status{
+    font-size: 45px;
+    align-items:flex-start;
+}
+
+
+.comentarios{
+    position: absolute;
+    margin-top: 45px;
+    margin-right: 1000px;
+}
+
+.commentbanner{
+    margin-top: 140px;
+    margin-left: 140px;
+    display: flex;
+    width: 1000px;
+    
+    
+}
+
+.comentariosget{
+    position: absolute;
+    text-align: left;
+    align-items: center;
+    color: black;
+    width: 850px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.comentariosuser{
+    text-align: left;
+    color: orange;
+    margin-left: 950px;  
+    margin-top: 40px;  
+    font-size: 15px;
+}
+
+.userimg{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-right: 800px;
+    margin-bottom: 1000px;
+}
+
+
+
