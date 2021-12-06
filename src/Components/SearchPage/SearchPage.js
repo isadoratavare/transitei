@@ -56,7 +56,7 @@ class DefinicaoRua extends Component {
                     <div>
                         <section className="banner">
                             <div className="security">
-                                <div className="security-status" style={{ color: rua.acidentes >= 75 ? "green" : rua.acidentes < 75 && rua.acidentes >= 45 ? "rgb(176, 179, 0)" : "rgb(146, 0, 0)" }}>{rua.acidentes >= 75 ? ruaSegura : rua.acidentes < 75 && rua.acidentes >= 45 ? ruaRegular : ruaPerigosa}
+                                <div className="security-status" style={{ color: rua.seguranca >= 75 ? "green" : rua.seguranca < 75 && rua.seguranca >= 45 ? "rgb(176, 179, 0)" : "rgb(146, 0, 0)" }}>{rua.seguranca >= 75 ? ruaSegura : rua.seguranca < 75 && rua.seguranca >= 45 ? ruaRegular : ruaPerigosa}
                                     <div className="status" >Foram registrados {rua.acidentes} acidentes nesse trajeto entre 2015 e 2021.</div>
                                     <button className="fav-button">
                                         <div>
@@ -67,7 +67,7 @@ class DefinicaoRua extends Component {
                                 </div>
                             </div>
                             <div className="img-bola">
-                                {rua.acidentes >= 75 ? imgRuaSegura : rua.acidentes < 75 && rua.acidentes >= 45 ? imgRuaRegular : imgRuaPerigosa}
+                                {rua.seguranca >= 75 ? imgRuaSegura : rua.seguranca < 75 && rua.seguranca >= 45 ? imgRuaRegular : imgRuaPerigosa}
 
                             </div>
                         </section>
