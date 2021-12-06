@@ -11,7 +11,7 @@ import FacebookLogin from "../../images/FacebookLogin.png"
 
 
 
-export default function Login(){
+const Login = () => {
     return(
         <main>
         <div class="split left">
@@ -46,4 +46,5 @@ export default function Login(){
    
     )
   }
+  export default Login;
   

@@ -3,7 +3,7 @@ import Frame from '../../images/Frame.svg';
 import img5 from '../../images/img-5.svg';
 
 
-export default function Home(){
+const Home = () => {
   return(
     <main>
       <navbar className="navbar container">
@@ -22,7 +22,11 @@ export default function Home(){
           </ul>
         </nav>
         <div className="buttons">
-          <button className="login"> Entrar </button>
+          <button className="login"> 
+            <a href="/login">
+              Entrar
+            </a> 
+          </button>
           <button className="cadastro"> Cadastrar </button>
         </div>
       </navbar>
@@ -79,3 +83,4 @@ export default function Home(){
   )
 
 }
+export default Home;
