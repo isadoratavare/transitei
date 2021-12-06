@@ -38,7 +38,7 @@ class DefinicaoRua extends Component {
 
 
 
-        const rua = this.state.RuaSelecionada
+        const rua = this.state.RuaSelecionada;
 
         return (
             <div className="page">
