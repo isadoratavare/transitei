@@ -56,3 +56,27 @@
   left:50%;
   transform: translate(-50%, -50%)
 }
+.google{
+  position: absolute;
+  top: -120% ;
+}
+
+
+input#google-button{
+  background: #ccc url('../../images/google.png') no-repeat top left;
+  padding-left: 40px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+
+input#facebook-button{
+  background: #ccc url('../../images/facebook.png') no-repeat top left;
+  padding-left: 50px;
+  height: 40px;
+  border: 2px solid black;
+  width: 200px;
+  border-radius:5%;
+}
