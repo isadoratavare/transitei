@@ -5,8 +5,9 @@ import SearchBar from "../SearchBar/SearchBar";
 import graficoregular from '../../Components/images/graficoregular.png';
 import graficoseguro from '../../Components/images/graficoseguro.png';
 import graficoperigoso from '../../Components/images/graficoperigoso.png';
-import icon from "../../Components/images/icon.png"
-import user from "../../Components/images/user.png"
+import icon from "../../Components/images/icon.png";
+import user from "../../Components/images/user.png";
+import home from "../../Components/images/home.png";
 
 class DefinicaoRua extends Component {
 
@@ -64,16 +65,20 @@ class DefinicaoRua extends Component {
                                             <div2 className="buttom-text"> Adicionar aos favoritos</div2>
                                         </div>
                                     </button>
+                                    <button className='homebutton'>
+                                        <img className = "homeicon" src={home}/>
+                                    </button>
                                 </div>
                             </div>
                             <div className="img-bola">
                                 {rua.seguranca >= 75 ? imgRuaSegura : rua.seguranca < 75 && rua.seguranca >= 45 ? imgRuaRegular : imgRuaPerigosa}
 
                             </div>
+                        
                         </section>
                         <section className="commentsbanner">
                             <div className="comments">
-                                <div className="commenttext"></div>
+                                <input className= "commentbox" type="text" placeholder={"Comentar..."} />
                                 <button className="commentbutton">
                                     Comentar
                                 </button>
@@ -82,11 +87,11 @@ class DefinicaoRua extends Component {
                                 {Comments.filter((val) => {
                                     return val
                                 }).map((val, key) => {
-                                    return <  div className= 'commentbanner'>
-                                        <img className="userimg" src={user} alt="anonimo" />     
+                                    return <  div className='commentbanner'>
+                                        <img className="userimg" src={user} alt="anonimo" />
                                         <div className="comentariosget" >"{val.comentarios}"</div>
                                         <div className='comentariosuser' > - {val.user} </div>
-                                                                      
+
                                     </div>
                                 })}
                             </div>

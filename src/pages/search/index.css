@@ -56,11 +56,29 @@
     margin-top: 25px;
     font-family: "Poppins";
 }
-
-.fav-button{
+.homebutton{
+    font-size: 15px;
+    position: absolute;
     cursor: pointer;
-    margin-left: 15px;
-    margin-top: 25px;   
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 0px;
+    height: 50px;
+    width: 80px;
+    border: 0;
+    background-color:rgba(0, 0, 0, 0.938);
+    color:rgb(255, 255, 255)
+
+}
+
+.homeicon{
+    width: 30px;
+}
+.fav-button{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 30px;   
     border-radius: 7px;
     height: 33px;
     width: 170px;
@@ -88,20 +106,32 @@
 }
 
 .commenttext{
-    position: absolute;
+    text-align: start;
     margin-left: 80px;
+}
+
+.commentsbanner{
+    margin-right: 80px;
 }
 
 .commentbutton{
     font-size: 15px;
     position: absolute;
     cursor: pointer;
-    margin-left: 400px;
+    margin-right: 0px;
     height: 50px;
     width: 200px;
     border: 0;
     background-color:rgb(255, 211, 0);
     color:rgb(255, 255, 255)
+}
+
+.commentbox{
+    padding: 12px 20px;
+    margin-right: 80px;
+    margin-top: 5px;
+    width: 900px;
+    
 }
 
 .buttom-heart{
@@ -161,5 +191,6 @@
     margin-right: 800px;
     margin-bottom: 1000px;
 }
+
 
 
