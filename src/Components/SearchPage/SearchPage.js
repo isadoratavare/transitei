@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import BookData from "../../data/DataRua.json"
+import BookData from "../../data/DataRua.json";
+import Comments from "../../data/DataComment.json";
 import SearchBar from "../SearchBar/SearchBar";
 import graficoregular from '../../Components/images/graficoregular.png';
 import graficoseguro from '../../Components/images/graficoseguro.png';
 import graficoperigoso from '../../Components/images/graficoperigoso.png';
 import icon from "../../Components/images/icon.png"
+import user from "../../Components/images/user.png"
 
 class DefinicaoRua extends Component {
 
@@ -35,6 +37,7 @@ class DefinicaoRua extends Component {
 
 
 
+
         const rua = this.state.RuaSelecionada
 
         return (
@@ -57,29 +60,44 @@ class DefinicaoRua extends Component {
                                     <div className="status" >Foram registrados {rua.acidentes} acidentes nesse trajeto entre 2015 e 2021.</div>
                                     <button className="fav-button">
                                         <div>
-                                            <img className = "buttom-heart" src={icon} alt="coração" />
+                                            <img className="buttom-heart" src={icon} alt="coração" />
                                             <div2 className="buttom-text"> Adicionar aos favoritos</div2>
                                         </div>
                                     </button>
                                 </div>
                             </div>
                             <div className="img-bola">
-                            {rua.acidentes >= 75 ? imgRuaSegura : rua.acidentes < 75 && rua.acidentes >= 45 ? imgRuaRegular : imgRuaPerigosa}
-                                
+                                {rua.acidentes >= 75 ? imgRuaSegura : rua.acidentes < 75 && rua.acidentes >= 45 ? imgRuaRegular : imgRuaPerigosa}
+
                             </div>
                         </section>
                         <section className="commentsbanner">
                             <div className="comments">
-                                <div className = "commenttext">comentarios:</div>
+                                <div className="commenttext"></div>
                                 <button className="commentbutton">
                                     Comentar
                                 </button>
                             </div>
+                            <div className='comentarios'>
+                                {Comments.filter((val) => {
+                                    return val
+                                }).map((val, key) => {
+                                    return <div>
+                                        <img className="userimg" src={user} alt="anonimo" />
+                                        <div className='comentariosuser' > {val.user} </div>
+                                        <div className='commentteste'>
+                                            <div className="comentariosget" >{val.comentarios}</div>
+                                        </div>
+
+                                    </div>;
+                                })}
+                            </div>
+
                         </section>
                     </div>
                 )
                 }
-            
+
             </div>
         )
     }

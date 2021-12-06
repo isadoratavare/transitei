@@ -9,7 +9,7 @@
 }
 
 .search {
-    margin-bottom: 750px;
+    margin-bottom: 800px;
     position: absolute;
 
 }
@@ -115,4 +115,36 @@
 .security-status{
     font-size: 45px;
     align-items:flex-start;
+}
+
+.commentsbanner{
+    height: auto;
+}
+
+.comentarios{
+    position: absolute;
+    margin-top: 45px;
+    margin-right: 1000px;
+}
+
+.comentariosget{
+    position: absolute;
+    text-align: left;
+    align-items: center;
+    color: black;
+    margin-left: 195px;
+    margin-top: 5px;
+    width: 900px;
+}
+
+.comentariosuser{
+    color: orange;    
+    margin-left: 200px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.userimg{
+    position: absolute;
+    height: 60px;
 }
