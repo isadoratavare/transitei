@@ -82,14 +82,12 @@ class DefinicaoRua extends Component {
                                 {Comments.filter((val) => {
                                     return val
                                 }).map((val, key) => {
-                                    return <div>
-                                        <img className="userimg" src={user} alt="anonimo" />
-                                        <div className='comentariosuser' > {val.user} </div>
-                                        <div className='commentteste'>
-                                            <div className="comentariosget" >{val.comentarios}</div>
-                                        </div>
-
-                                    </div>;
+                                    return <  div className= 'commentbanner'>
+                                        <img className="userimg" src={user} alt="anonimo" />     
+                                        <div className="comentariosget" >"{val.comentarios}"</div>
+                                        <div className='comentariosuser' > - {val.user} </div>
+                                                                      
+                                    </div>
                                 })}
                             </div>
 
