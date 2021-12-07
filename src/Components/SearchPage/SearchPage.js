@@ -23,7 +23,9 @@ class DefinicaoRua extends Component {
         this.setState({ RuaSelecionada: event })
 
     }
+
     render() {
+
         const ruaPerigosa = "Esta rua é considerada perigosa";
 
         const ruaSegura = "Esta rua é considerada segura";
@@ -66,7 +68,7 @@ class DefinicaoRua extends Component {
                                         </div>
                                     </button>
                                     <button className='homebutton'>
-                                        <img className = "homeicon" src={home}/>
+                                        <img className="homeicon" src={home} />
                                     </button>
                                 </div>
                             </div>
@@ -74,11 +76,11 @@ class DefinicaoRua extends Component {
                                 {rua.seguranca >= 75 ? imgRuaSegura : rua.seguranca < 75 && rua.seguranca >= 45 ? imgRuaRegular : imgRuaPerigosa}
 
                             </div>
-                        
+
                         </section>
                         <section className="commentsbanner">
                             <div className="comments">
-                                <input className= "commentbox" type="text" placeholder={"Comentar..."} />
+                                <input className="commentbox" type="text" placeholder={"Comentar..."} />
                                 <button className="commentbutton">
                                     Comentar
                                 </button>
